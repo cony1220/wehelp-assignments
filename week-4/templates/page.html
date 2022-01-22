@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8" />
+        <title>網頁</title>
+        <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='page.css')}}" media="all"/>
+    </head>
+    <body>
+        <div class="welcome">
+            <div class="title">歡迎光臨，請輸入帳號密碼</div>
+        </div>
+        <div class="login">
+            <div>登入系統</div>
+        </div>
+        <div class="system">
+            <form action="/signin" method="POST">
+                    <div>帳號<input style="margin:5px;" type="text" name="account" /></div>
+                    <div>密碼<input style="margin:5px;" type="text" name="password" />
+                        <div style="text-align:center" style="margin:5px;">
+                            <button>登入</button>
+                        </div>
+                    </div>
+            </form>
+        </div>
+    </body>
+</html>

@@ -21,3 +21,8 @@
 ● 取得 member 資料表中，所有會員 follower_count 欄位的平均數。
 ![image](https://user-images.githubusercontent.com/95182061/151565418-62b5b235-3a15-4286-a246-b88619b14d89.png)
 ## 要求五：SQL JOIN (Optional)
+● 使用 SELECT 搭配 JOIN 語法，取得所有留言，結果須包含留言者會員的姓名。
+![image](https://user-images.githubusercontent.com/95182061/151599798-d4845ea2-6e81-425b-bdbe-8f331455b5fa.png)
+● 使用 SELECT 搭配 JOIN 語法，取得 member 資料表中欄位 username 是 test 的所有留言，資料中須包含留言者會員的姓名。
+![image](https://user-images.githubusercontent.com/95182061/151600511-0865fe82-2815-4a48-983c-1d4400238a4b.png)
+

@@ -6,7 +6,7 @@
 ● 使用 SELECT 指令取得所有在 member 資料表中的會員資料，並按照 time 欄位，由近到遠排序。
 ![image](https://user-images.githubusercontent.com/95182061/151558768-f708e11b-03ca-4d84-bc69-eac7dac3cb53.png)
 ● 使用 SELECT 指令取得 member 資料表中第 2 ~ 4 共三筆資料，並按照 time 欄位，由近到遠排序。
-![image](https://user-images.githubusercontent.com/95182061/151562317-59c0ab72-d071-49ff-8b41-8f721f5bfd8e.png)
+![image](https://user-images.githubusercontent.com/95182061/151673583-31d91fb5-fa65-4628-be28-ad7107f2e26f.png)
 ● 使用 SELECT 指令取得欄位 username 是 test 的會員資料。
 ![image](https://user-images.githubusercontent.com/95182061/151562858-01bb8450-7a9f-41b1-b4aa-4c32820207df.png)
 ● 使用 SELECT 指令取得欄位 username 是 test、且欄位 password 也是 test 的資料。

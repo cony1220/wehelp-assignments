@@ -1,0 +1,17 @@
+body{
+    font-size:20px;
+    margin:0px;
+}
+.welcome{
+    display:flex;
+    justify-content:center;/* 水平對齊 */
+    align-items:center;/* 垂直對齊 */
+    height:100px;
+    background-color: #8d79e7;
+}
+.title{
+    flex:none;
+    text-align:center;
+    font-size:40px;
+    color:white;
+}

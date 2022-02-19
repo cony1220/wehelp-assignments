@@ -67,6 +67,7 @@ def signin():
         cursor.execute("SELECT `name` FROM `member` WHERE `username`=%s and `password`=%s",(username,password))
         name=cursor.fetchone()
         if name:
+            session["username"]=username
             session["name"]=name[0]
             session["login"]=True
             return redirect("/member/")
@@ -144,11 +145,10 @@ def api_member():
         connection=connectionpool.get_connection()
         cursor=connection.cursor()
         data=request.get_json()
-        name=session["name"]
         name_update=data["name"]
+        username=session["username"]
         if session["login"]==True:
-            cursor.execute("UPDATE `member` SET `name`=%s WHERE `name`=%s",(name_update,name))
-            session["name"]=name_update
+            cursor.execute("UPDATE `member` SET `name`=%s WHERE `username`=%s",(name_update,username))
             connection.commit()
             information={
                 "ok":True
